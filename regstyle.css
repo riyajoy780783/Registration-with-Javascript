@@ -1,0 +1,56 @@
+body{
+    background-color: grey;
+}
+#form1{
+    background-color: #F8584A;
+    padding:5px;
+    border: 10px solid white;
+    margin-top: 30px;
+    min-height: 600px;
+}
+#form2{
+    background-color: #F8584A;
+    border: 10px solid white;
+    padding:5px;
+    
+    margin-top: 30px;
+    min-height: 600px;
+}
+#form3{
+    background-color: #F8584A;
+    border: 10px solid white;
+    padding:5px;
+   
+    margin-top: 30px;
+    min-height: 600px;
+}
+
+#register
+{
+    padding: 10px 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: aqua;
+    
+}
+#pr
+{
+    margin: 5px
+}
+.l1
+{
+    margin: 5px;
+    color: white;
+}
+h1
+{
+    color: white;
+}
+#prw
+{
+    margin-top: 40px;
+}
+#crw
+{
+    margin-top: 40px;
+}

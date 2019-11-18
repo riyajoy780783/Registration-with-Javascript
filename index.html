@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>Register Form</title>
+    <link rel="stylesheet" type="text/css" href="regstyle.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <form>
+
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4" id="form1"></div>
+
+
+                <div class="col-sm-4 col-md-4 col-lg-4" id="form2">
+                    <h1 class="text-center">Registration</h1>
+
+                    <label class="l1">Username</label>
+                    <div class="col-md-11" id="pr">
+                        <input type="text" id="name" class="form-control" name="name" placeholder="Username">
+                        <br>
+                        <div id="namemsg"></div>
+                    </div>
+
+                    <label class="l1">Email</label>
+                    <div class="col-md-11" id="pr">
+                        <input type="email" id="email" class="form-control" name="email" placeholder="Email">
+                        <br>
+                        <div id="emailmsg"></div>
+                    </div>
+
+                    <label class="l1">Password</label>
+                    <div class="col-md-11" id="pr">
+                        <input type="password" id="pswd" class="form-control" name="Password" placeholder="Password">
+                        <br>
+                        <div id="pswdmsg"></div>
+
+                    </div>
+
+                    <label class="l1">Confirm Password</label>
+                    <div class="col-md-11" id="pr">
+                        <input type="password" id="cpswd" class="form-control" name="confirm_password" placeholder="Confirm Password">
+                        <span id='message'></span>
+
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-4" id="form3">
+                    <h1 class="text-center">Profile</h1>
+                    <label class="l1">Birthday</label>
+                    <div class="col-md-11" class="date">
+                        <input type="date" id="dob" class="form-control" name="Birthday" placeholder="yyyy-mm-dd">
+                        <br>
+                        <div id="age"></div>
+
+                    </div>
+                    <label class="l1">Short Bio(max 140 character)</label>
+                    <div class="col-md-11" id="pr">
+
+                        <textarea id="field" class="form-control" onkeyup="countChar(this)"></textarea>
+                    </div>
+                    <div id="charNum">140</div>
+                    <button id="register">Register</button>
+                </div>
+
+            </div </div> </form> <script src="script.js">
+            </script>
+
+</body>
+
+</HTML>
